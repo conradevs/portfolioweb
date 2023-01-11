@@ -1,4 +1,7 @@
 import React from 'react'
+import ProjectItem from './ProjectItem'
+
+import taskManager from '../../public/assets/projects/taskmanager.png'
 
 const Projects = () => {
   return (
@@ -7,9 +10,24 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
-                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
-                    
-                </div>
+                <ProjectItem
+                    title='Task Manager'
+                    framework='MERN'
+                    backgroundImg={taskManager}
+                    projectUrl='/'
+                />
+                <ProjectItem
+                    title='Product Score'
+                    framework='Next JS'
+                    backgroundImg={taskManager}
+                    projectUrl='/'
+                />
+                <ProjectItem
+                    title='Task Manager'
+                    framework='React JS'
+                    backgroundImg={taskManager}
+                    projectUrl='/'
+                />
             </div> 
         </div>
     </div>

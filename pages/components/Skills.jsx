@@ -24,7 +24,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={htmlLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={htmlLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>HTML</h3>
@@ -34,7 +34,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={cssLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={cssLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>CSS</h3>
@@ -44,7 +44,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={jsLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={jsLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>JavaScript</h3>
@@ -54,7 +54,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={pythonLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={pythonLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Python</h3>
@@ -64,7 +64,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={tailwindLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={tailwindLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Tailwind</h3>
@@ -74,7 +74,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={emotionLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={emotionLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Emotion</h3>
@@ -84,7 +84,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={reactLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={reactLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>React</h3>
@@ -94,7 +94,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={reduxLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={reduxLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Redux</h3>
@@ -104,7 +104,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={nextLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={nextLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Next</h3>
@@ -114,7 +114,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={nodeLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={nodeLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Node</h3>
@@ -124,7 +124,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={firebaseLogo} alt='/' width='64' height='64' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={firebaseLogo} alt='/' width='64' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Firebase</h3>
@@ -134,7 +134,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={gitLogo} alt='/' width='80' height='80' quality={100} unoptimized={true} priority='true'/>
+                            <Image src={gitLogo} alt='/' width='80' height='auto' quality={100} unoptimized={true} priority='true'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Git</h3>
