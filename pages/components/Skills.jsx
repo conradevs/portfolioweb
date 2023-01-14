@@ -15,7 +15,7 @@ import firebaseLogo from '../../public/assets/skills/firebase_logo.png'
 
 const Skills = () => {
   return (
-    <div className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex-col justify-center h-full'>
             <p className='text-xl tracking-width uppercase text-[#5651e5]'>Skills</p>
             <h2 className='py-4'>Technologies</h2>
