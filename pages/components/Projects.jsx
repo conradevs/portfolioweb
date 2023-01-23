@@ -14,7 +14,7 @@ const Projects = () => {
                     title='Task Manager'
                     framework='MERN'
                     backgroundImg={taskManager}
-                    projectUrl='/'
+                    projectUrl='/taskmanager'
                 />
                 <ProjectItem
                     title='Product Score'
